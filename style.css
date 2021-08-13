@@ -1,0 +1,127 @@
+
+
+header {
+
+    display: flex;
+    position: relative;
+    gap: 1000px;
+    background-color: blue;
+
+}
+
+
+.aboutme {
+
+    gap: 5px;
+}
+
+.info {
+
+    position: relative;
+    gap: 30px;
+    display: flex;
+    margin-top: px;
+    
+}
+
+.main {
+
+    display: flex;
+    gap: 100px;
+}
+
+img {
+
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-top: 100px;
+    
+    
+    
+}
+
+.blue{
+    color: aqua;
+}
+
+.project {
+
+    display: flex;
+    gap: 30px;
+}
+
+.list {
+
+    padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "HTML CSS And" 
+                         "Power Autom Autom" 
+                         "Crit Crit Crit";
+    gap: 5px;
+}
+
+.list1 {
+
+    grid-area: HTML;
+}
+
+.list2 {
+
+    grid-area: CSS;
+}
+
+.list3 {
+
+    grid-area: And;
+}
+
+.list4 {
+
+    grid-area: Power;
+}
+
+.list5 {
+
+    grid-area: Autom;
+}
+
+.list6 {
+
+    grid-area: Crit;
+}
+
+.margin {
+
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 720px){
+    
+
+    .main {
+
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    
+
+.grid {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+}
